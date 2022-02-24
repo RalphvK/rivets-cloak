@@ -20,7 +20,7 @@ The binder has two variants: ```rv-cloak``` and ```rv-cloak-children```. The for
 Add the ```rv-cloak``` attribute to make the element invisible until uncloaked. In this example, the entire ```<div>``` will be hidden until Rivets.js has replaced merge tags.
 
 ```html
-<!-- div is hidden until merge tags replaced with values -->
+<!-- div is hidden until merge tags are replaced with values -->
 <div class="greeting" rv-cloak>
     <h1>Welcome { user.firstName }</h1>
 </div>
@@ -32,7 +32,7 @@ Add the ```rv-cloak``` attribute to make the element invisible until uncloaked. 
 
 ```html
 <div class="greeting" rv-cloak-children>
-    <!-- h1 is hidden until merge tags replaced with values -->
+    <!-- h1 is hidden until merge tags are replaced with values -->
     <h1>Welcome { user.firstName }</h1>
 </div>
 ```
