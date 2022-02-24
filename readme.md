@@ -1,6 +1,6 @@
 # ```rv-cloak``` binder for Rivets.js
 
-This repository contains one solution for implementing cloaking in a Rivets.js project.
+This repository contains one solution for cloaking in a [Rivets.js](https://github.com/mikeric/rivets) project. See [mikeric/rivets](https://github.com/mikeric/rivets) and [rivetsjs.com](http://rivetsjs.com/) for details about the Rivets data-binding library.
 
 ## Example
 
