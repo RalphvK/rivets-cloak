@@ -8,18 +8,6 @@ You can view and interact with a live example in [this CodePen](https://codepen.
 
 ![](preview.gif)
 
-## What is meant by "cloaking"
-
-The binder hides an element's content until Rivets.js has initialised. Otherwise, Rivets.js' binding declarations will be shown as plain text until initialisation is complete. For example, you might display the user's first name on your page using:
-
-```html
-<div class="greeting">
-    <h1>Welcome { user.firstName }</h1>
-</div>
-```
-
-Without cloaking, the binding declaration ```{ user.firstName }``` will be displayed as plain text, until Rivets.js is initialised and replaces it with "Bob". Using the ```rv-cloak``` binder, you can hide the element until initialisation is done, preventing the user from seeing the ugly merge tag.
-
 ## How to use
 
 ### Summary
@@ -50,3 +38,15 @@ Add the ```rv-cloak``` attribute to make the element invisible until uncloaked. 
     <h1>Welcome { user.firstName }</h1>
 </div>
 ```
+
+## What is meant by "cloaking"
+
+The binder hides an element's content until Rivets.js has initialised. Otherwise, Rivets.js' binding declarations will be shown as plain text until initialisation is complete. For example, you might display the user's first name on your page using:
+
+```html
+<div class="greeting">
+    <h1>Welcome { user.firstName }</h1>
+</div>
+```
+
+Without cloaking, the binding declaration ```{ user.firstName }``` will be displayed as plain text, until Rivets.js is initialised and replaces it with "Bob". Using the ```rv-cloak``` binder, you can hide the element until initialisation is done, preventing the user from seeing the ugly merge tag.
