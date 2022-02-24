@@ -6,6 +6,8 @@ This repository contains one solution for implementing cloaking in a Rivets.js p
 
 You can view and interact with a live example in [this CodePen](https://codepen.io/ralphvk/pen/RwjBoGo).
 
+![](preview.gif)
+
 ## What is meant by "cloaking"
 
 The binder hides an element's content until Rivets.js has initialised. Otherwise, Rivets.js' binding declarations will be shown as plain text until initialisation is complete. For example, you might display the user's first name on your page using:
