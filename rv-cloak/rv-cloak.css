@@ -1,8 +1,8 @@
-[rv-cloak], [rv-cloak-child] > * {
+[rv-cloak], [rv-cloak-children] > * {
   transition: all 0.3s;
 }
 
-[rv-cloak]:not([rv-cloak=uncloak]), [rv-cloak-child]:not([rv-cloak-child=uncloak]) > * {
+[rv-cloak]:not([rv-cloak=uncloak]), [rv-cloak-children]:not([rv-cloak-children=uncloak]) > * {
   opacity: 0;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
