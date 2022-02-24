@@ -1,0 +1,20 @@
+{
+  "name": "rivets-cloak",
+  "version": "0.0.1",
+  "description": "Simple cloaking binder for Rivets.js",
+  "main": "rv-cloak.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "Ralph van Kruiselbergen",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.49.8"
+  }
+}

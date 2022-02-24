@@ -1,0 +1,10 @@
+[rv-cloak], [rv-cloak-child] > * {
+  transition: all 0.3s;
+}
+
+[rv-cloak]:not([rv-cloak=uncloak]), [rv-cloak-child]:not([rv-cloak-child=uncloak]) > * {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
