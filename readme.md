@@ -4,7 +4,7 @@ This repository contains one solution for implementing cloaking in a Rivets.js p
 
 ## Example
 
-You can view and interact with a live example in [this CodePen](https://codepen.io/ralphvk/pen/RwjBoGo).
+You can view and interact with a live example in [this CodePen](https://codepen.io/ralphvk/pen/RwjBoGo). In this example, a **delay of two seconds** has been added for demonstration purposes. In reality, the fade should start within a few milliseconds.
 
 ![](preview.gif)
 
