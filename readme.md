@@ -6,8 +6,6 @@ This repository contains one solution for cloaking in a [Rivets.js](https://gith
 
 You can view and interact with a live example in [this CodePen](https://codepen.io/ralphvk/pen/RwjBoGo). In this example, a **delay of two seconds** has been added for demonstration purposes. In reality, the fade should start within a few milliseconds.
 
-![](preview.gif)
-
 ## How to use
 
 ### Summary
@@ -50,3 +48,5 @@ The binder hides an element's content until Rivets.js has initialised. Otherwise
 ```
 
 Without cloaking, the binding declaration ```{ user.firstName }``` will be displayed as plain text, until Rivets.js is initialised and replaces it with "Bob". Using the ```rv-cloak``` binder, you can hide the element until initialisation is done, preventing the user from seeing the ugly merge tag.
+
+![](preview.gif)
