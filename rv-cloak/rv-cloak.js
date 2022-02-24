@@ -5,9 +5,9 @@ rivets.binders.cloak = {
     }
 }
 
-rivets.binders['cloak-child'] = {
+rivets.binders['cloak-children'] = {
     priority: -1000,
     bind: function (el) {
-        el.setAttribute('rv-cloak-child', 'uncloak');
+        el.setAttribute('rv-cloak-children', 'uncloak');
     }
 }
