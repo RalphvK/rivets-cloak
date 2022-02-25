@@ -50,3 +50,13 @@ The binder hides an element's content until Rivets.js has initialised. Otherwise
 Without cloaking, the binding declaration ```{ user.firstName }``` will be displayed as plain text, until Rivets.js is initialised and replaces it with "Bob". Using the ```rv-cloak``` binder, you can hide the element until initialisation is done, preventing the user from seeing the ugly merge tag.
 
 ![](preview.gif)
+
+## Compiling
+
+First, install the dev dependencies using ```npm install```.
+
+This repo uses Gulp to watch the SCSS file(s) and compile them into CSS. To run the watch script, use the ```gulp``` NPM script:
+
+```
+npm run gulp
+```
